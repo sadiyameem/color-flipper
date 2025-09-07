@@ -1,8 +1,8 @@
 # Color Flipper
 
 # Description
-This project let's users see differnet gradient color backgrounds by clicking a button.
-It includes a drak mode that changes the text colors to white.
+This project let's users see different gradient color backgrounds by clicking a button.
+It includes a dark mode that changes the text colors to white.
 This project was created by the use of HTML, CSS and JavaScript.
 
 # Features
