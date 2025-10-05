@@ -26,6 +26,7 @@ input {
   width: 200px;
   margin: 5px;
   font-size: medium;
+  border-color: olive;
 }
 
 .btn {
