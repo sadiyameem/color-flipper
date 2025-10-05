@@ -6,7 +6,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   margin: 0;
 }
 
@@ -18,6 +18,8 @@ body {
 
 .btn-container {
   display: flex;
+  color: white;
+  border: 2px solid seagreen;
 }
 
 input {
@@ -26,14 +28,14 @@ input {
   width: 200px;
   margin: 5px;
   font-size: medium;
-  border-color: olive;
+  border-color: seagreen;
 }
 
 .btn {
   border: 2px solid black;
   margin: 5px;
   padding: 5px;
-  background-color: olive;
+  background-color: seagreen;
   border-radius: 10px;
 }
 
