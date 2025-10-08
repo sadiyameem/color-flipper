@@ -39,4 +39,11 @@ input {
   border-radius: 10px;
 }
 
+.btn:hover {
+  background-color: seagreen;
+  transform: scale(1.05);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
 
