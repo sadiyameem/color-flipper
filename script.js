@@ -1,11 +1,16 @@
 let inputColor = document.getElementById("color-input");
 let generateColor = document.getElementById("generate-color");
 let randomColor = document.getElementById("random-color");
+let colorCode = document.getElementById("color-code");
 
 // when generate button is clicked
 generateColor.addEventListener("click", e => {
     if (inputColor.value != ""){
         document.body.style.backgroundColor = inputColor.value;
+        
+        let color = inputColor.value;
+        document.body.style.backgroundColor = color;
+        colorCode.textContent = `Current color: ${color}`;
     }
     inputColor.value = "";
 });
