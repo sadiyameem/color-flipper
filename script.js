@@ -2,6 +2,7 @@ let inputColor = document.getElementById("color-input");
 let generateColor = document.getElementById("generate-color");
 let randomColor = document.getElementById("random-color");
 let colorCode = document.getElementById("color-code");
+let copyColor = document.getElementById("copy-color");
 
 // when generate button is clicked
 generateColor.addEventListener("click", e => {
@@ -30,3 +31,9 @@ function generate_random_color() {
     let color = `hsla(${hue}, ${saturation}%, ${lightness}%, ${alphsValue})`;
     return color;
 }
+
+// copy color
+copyColor.addEventListener("click", () => {
+    navigator.clipboard.writeText(colorCode.textContent);
+    alert("Copied to clipboard!");
+});
