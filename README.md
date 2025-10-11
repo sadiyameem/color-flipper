@@ -1,30 +1,21 @@
 # Color Flipper
 
 # Description
-<<<<<<< HEAD
 This project let's users see colors by clicking a button.
 It includes a different buttons and a space where the user can type a color and it will show along with the color name.
 This project was created by the use of HTML, CSS and JavaScript.
-=======
-This project let's users see colors by clicking a button. It includes a different buttons and a space where the user can type a color and it will show along with the color name. This project was created by the use of HTML, CSS and JavaScript.
->>>>>>> 7b76e71 (updated readme)
 
 # Features
 - A Button that generates differnet colors
 - Shows the color name
 - Hover effects on the buttons
 
-
 # Motivation
 I created this project because I wanted to make something interactive and something that I really enjoy.
 
 # Challenges and Learning
-<<<<<<< HEAD
-I learned how to make a interactive color generator with different colors each time.
+I learned how to make a interactive color generator with different colors each time a button is clicked.
 A challege I faced was making it show the color name everytime the user clicks the random button.
-=======
-I learned how to make a interactive color generator with different colors each time. A challege I faced was making it show the color name everytime the user clicks the random button.
->>>>>>> 7b76e71 (updated readme)
 
 Created by Sadiya M
 
