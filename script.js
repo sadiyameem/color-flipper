@@ -17,9 +17,9 @@ generateColor.addEventListener("click", e => {
 });
 
 // when random button is clicked
-randomColor.addEventListener("click", (e) => {
+randomColor.addEventListener("click", () => {
     let color = generate_random_color();
-    document.body.style.backgroundColor = generate_random_color();
+    document.body.style.backgroundColor = color;
     colorCode.textContent = `Current color: ${color}`;
     inputColor.value = "";
 });
